@@ -1,0 +1,17 @@
+{
+    "default_pattern": "zicoman-Default",
+
+	"use_random_patterns": false,
+	"random_patterns": {
+		"zicoman-Default": 8,
+		"zicoman-Bosses": 7,
+		"zicoman-Boss Variety": 6,
+		"zicoman-2x Boss Chance": 5,
+		"zicoman-Scavlands": 4,
+		"zicoman-Raiders": 3,
+		"zicoman-PMCs": 2,
+		"zicoman-Chaos": 1
+	},
+
+	"__DEBUG__Generate_bots_on_start": false
+}

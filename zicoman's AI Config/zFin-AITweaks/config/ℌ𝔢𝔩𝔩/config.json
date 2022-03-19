@@ -1,0 +1,433 @@
+{
+    "Explanation": {
+        "############## Set the values to true or false, or to a number if it's that type of value. It should be fairly self explanatory, but if there's anything weird I'll make a readme file that explains more. It should be in the mod's main folder.######################": "///",
+        "############## For real, check the README file if anything here confuses you in the slighest. Heck, even if it doesn't confuse you, it can't hurt to glance over it anyways.######################": "///",
+        "Notes on Bot Names": "Scav = assault; Sniper = marksman; Raider = pmcbot, Rogue = exusec; Cultist leader = sectantpriest; Cultist = sectantwarrior; PMC = cursedassault; Reshala = bossbully; Gluhar = bossgluhar; Killa = bosskilla; Shturman = bosskojaniy; Sanitar = bosssanitar; Boss minions = followerbully, followergluharassault, followergluharscout, followergluharsecurity, followergluharsnipe, followerkojaniy, followersanitar",
+        "Notes on Map Names": "Customs = bigmap, Woods = woods, Reserve = rezervbase, Shoreline = shoreline, Factory (day) = factory4_day, Factory (night) = factory4_night, Interchange = interchange, Labs = laboratory"
+    },
+    "disableAllSpawnChanges": true,
+    "disableAllGearChanges": false,
+    "disableAllAIChanges": false,
+    "silenceWeaponGenErrors": true,
+    "aiChanges": {
+        "changeBots": {
+            "lowLevelAIs": [
+                "assault"
+            ],
+            "midLevelAIs": [
+                "pmcbot",
+                "followergluharassault",
+                "followergluharscout",
+                "followergluharsecurity",
+                "followergluharsnipe",
+                "followerkojaniy",
+                "followersanitar",
+                "followerbully"
+            ],
+            "highLevelAIs": [
+                "assaultgroup",
+                "bear",
+                "usec"
+            ]
+        },
+        "Note": "These are the MAIN values for adjusting difficulty. If you want an easier or harder time overall, increase or decrease these. For details on these or any other entries, please check the readme.",
+        "overallAIDifficultyMod": -0.25,
+        "lowLevelAIDifficultyMod_Neg3_3": 0,
+        "midLevelAIDifficultyMod_Neg3_3": 1.55,
+        "highLevelAIDifficultyMod_Neg3_3": 3.05,
+        "IfYouDisableTheseThePMCSWontCountForQuestKills": {
+            "scavsFightBEARBots": true,
+            "scavsFightUSECBots": true
+        }
+    },
+    "overallDifficultyMultipliers": {
+        "aiAimSpeedMult": 0.5,
+        "aiShotSpreadMult": 1,
+        "aiVisionSpeedMult": 0.6,
+        "sniperBotAccuracyMult": 0.4,
+        "visibleDistanceMult": 1.7,
+        "semiAutoFireRateMult": 1.6,
+        "aiRecoilMult": 1,
+        "aiHearingMult": 0.5,
+        "visibleAngleMult": 1,
+        "visibleAngleMax": 150,
+        "grenadePrecisionMult": 0.7,
+        "grenadeThrowRangeMax": 25,
+        "grenadeThrowRangeMult": 1,
+        "allowAimAtHead": false,
+        "allowGrenades": true,
+        "infiniteAIAmmo": true,
+        "enableAutomaticDifficulty": false,
+        "infiniteAIHealing_PMCs_All_false": "PMCs",
+        "cultistsVisibleOnThermals": false,
+        "changeHeadHPValues": false,
+        "setTheseBotsToDefaultPlayerHPBeforeMultsAreUsed": [
+            "botnameshere",
+            "seperatethemwithcommas"
+        ],
+        "PMCHealthMult": 1,
+        "scavHealthMult": 1,
+        "raiderHealthMult": 1,
+        "bossHealthMult": 1,
+        "cultistHealthMult": 1
+    },
+    "allowBotsToTalk": {
+        "scavs": true,
+        "raiders": true,
+        "PMCs": true
+    },
+    "AIbehaviourChanges": {
+        "enabled": true,
+        "highLevelAIs": {
+            "default": 0,
+            "balanced": 1,
+            "aggressive": 6,
+            "ranged": 0
+        },
+        "midLevelAIs": {
+            "default": 0,
+            "balanced": 1,
+            "aggressive": 6,
+            "ranged": 0
+        },
+        "lowLevelAIs": {
+            "default": 0,
+            "balanced": 1,
+            "aggressive": 6,
+            "ranged": 0
+        }
+    },
+    "AIgearChanges": {
+        "CheckREADMEforInfo": {
+            "optimizedLoading": true,
+            "saveGearToFile": false,
+            "loadGearFromFile": false
+        },
+        "scavBots": [
+            "assault"
+        ],
+        "raiderBots": [
+            "pmcbot",
+            "followergluharassault",
+            "followergluharscout",
+            "followergluharsecurity",
+            "followergluharsnipe"
+        ],
+        "pmcBots": [
+            "bear",
+            "usec",
+            "cursedassault",
+            "assaultgroup"
+        ],
+        "scavs": {
+            "changeGear": false,
+            "moreModVariety": false,
+            "modQuality0_10": 1,
+            "modFrequency0_2": 0.6,
+            "magQuality0_10": 3,
+            "magDowngradeChance": 50,
+            "hat_to_helmet_ratio": 3,
+            "primaryWeaponRarityMinMax0_50": [
+                0,
+                30
+            ],
+            "sidearmRarityMinMax0_50": [
+                0,
+                10
+            ],
+            "armorLevelMin_Max": [
+                1,
+                4
+            ],
+            "helmetLevelMin_Max": [
+                1,
+                3
+            ],
+            "armorLevelWeights1_6": [
+                1,
+                3,
+                4,
+                2,
+                1,
+                1
+            ],
+            "weaponMaxDurabilityMin_Max": [
+                10,
+                65
+            ],
+            "weaponDurabilityMin_Max": [
+                35,
+                65
+            ],
+            "ammoRemovePCTGood_Bad": [
+                35,
+                25
+            ],
+            "healingItemsMin_Max": [
+                0,
+                4
+            ],
+            "magazinesInVestMin_Max": [
+                2,
+                3
+            ],
+            "backpackSizeMin_Max": [
+                -1,
+                16
+            ],
+            "maxTacticalDevices": 1,
+            "maxPrimaryOptics": 1,
+            "chanceToUseWeaponFromPlayerPresets0_100": 0,
+            "removeWeaponTypesSemiAutoPumpBolt": [
+                ""
+            ],
+            "specificWeapons": [
+                ""
+            ],
+            "useWeaponsFromOtherMods": true,
+            "useGearFromOtherMods": true
+        },
+        "raiders": {
+            "changeGear": false,
+            "moreModVariety": false,
+            "modQuality0_10": 7,
+            "modFrequency0_2": 0.8,
+            "magQuality0_10": 7,
+            "magDowngradeChance": 50,
+            "hat_to_helmet_ratio": 1,
+            "primaryWeaponRarityMinMax0_50": [
+                10,
+                40
+            ],
+            "sidearmRarityMinMax0_50": [
+                0,
+                30
+            ],
+            "armorLevelMin_Max": [
+                3,
+                5
+            ],
+            "helmetLevelMin_Max": [
+                3,
+                4
+            ],
+            "armorLevelWeights1_6": [
+                1,
+                1,
+                1,
+                4,
+                2,
+                1
+            ],
+            "weaponMaxDurabilityMin_Max": [
+                35,
+                75
+            ],
+            "weaponDurabilityMin_Max": [
+                35,
+                65
+            ],
+            "ammoRemovePCTGood_Bad": [
+                20,
+                40
+            ],
+            "healingItemsMin_Max": [
+                2,
+                4
+            ],
+            "magazinesInVestMin_Max": [
+                2,
+                2
+            ],
+            "backpackSizeMin_Max": [
+                -1,
+                20
+            ],
+            "maxTacticalDevices": 1,
+            "maxPrimaryOptics": 1,
+            "chanceToUseWeaponFromPlayerPresets0_100": 0,
+            "removeWeaponTypesSemiAutoPumpBolt": [
+                ""
+            ],
+            "specificWeapons": [
+                ""
+            ],
+            "useWeaponsFromOtherMods": true,
+            "useGearFromOtherMods": true
+        },
+        "PMCs": {
+            "changeGear": true,
+            "moreModVariety": true,
+            "modQuality0_10": 10,
+            "modFrequency0_2": 1,
+            "magQuality0_10": 10,
+            "magDowngradeChance": 0,
+            "hat_to_helmet_ratio": 0.25,
+            "armorLevelMin_Max": [
+                4,
+                6
+            ],
+            "helmetLevelMin_Max": [
+                4,
+                6
+            ],
+            "armorLevelWeights1_6": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "weaponMaxDurabilityMin_Max": [
+                100,
+                100
+            ],
+            "weaponDurabilityMin_Max": [
+                75,
+                100
+            ],
+            "primaryWeaponRarityMinMax0_50": [
+                20,
+                50
+            ],
+            "sidearmRarityMinMax0_50": [
+                20,
+                50
+            ],
+            "ammoRemovePCTGood_Bad": [
+                0,
+                60
+            ],
+            "healingItemsMin_Max": [
+                2,
+                5
+            ],
+            "magazinesInVestMin_Max": [
+                2,
+                6
+            ],
+            "backpackSizeMin_Max": [
+                -1,
+                64
+            ],
+            "maxTacticalDevices": 1,
+            "maxPrimaryOptics": 1,
+            "chanceToUseWeaponFromPlayerPresets0_100": 0,
+            "removeWeaponTypesSemiAutoPumpBolt": [
+                "pump",
+                "bolt"
+            ],
+            "specificWeapons": [
+                ""
+            ],
+            "useWeaponsFromOtherMods": true,
+            "useGearFromOtherMods": true
+        },
+        "allAI": {
+            "factionIdentifiers": false,
+            "removeAIVogGrenades": false,
+            "noHatsOnlyHelmets": false,
+            "removeVanillaBotWeapons": true,
+            "removeVanillaBotArmor": true,
+            "botsWillNotSpawnWithTheseThings": [
+                "5d52cc5ba4b9367408500062",
+                "5cdeb229d7f00c000e7ce174"
+            ]
+        },
+        "miscChanges": {
+            "requiresOtherMods": {
+                "AIO": {
+                    "AllowAIToUseBothArmoredVestsAndArmoredRigs": false
+                }
+            }
+        }
+    },
+    "spawnChanges": {
+        "controlOptions": {
+            "doNotChangeTheseSPECIFICMaps": [
+                "mapnameshere",
+                "seperatethemwithcommas"
+            ],
+            "spawnPMCsAsBosses": false,
+            "roguesNeutralToUsecs": true,
+            "breakUpSpawnWaves": false,
+            "noScavsInLabs": true,
+            "removeVanillaSpawns": false,
+            "removeVanillaPMCSpawns": false,
+            "removeSniperBots": false,
+            "autoAddPMCsBasedOnMapSize": false,
+            "allPMCsareBEARs": true,
+            "allPMCsareUSECs": false,
+            "scavReplaceWith___AffectsOnlyVanillaWaves": false,
+            "scavReplaceWithRaidersPCT0_100": 5,
+            "scavReplaceWithPMCsPCT0_100": 0,
+            "extraScavsPerVanillaWave": 0,
+            "mapMultipliers_Inter_Cust_Resrv_Woods_Shore_Lab_Fact": [
+                0.8,
+                1,
+                1,
+                1.2,
+                1.2,
+                1,
+                0.6
+            ],
+            "evenlySpreadAllSpawnLocations": true
+        },
+        "extraWaves": {
+            "scavWaves": 4,
+            "scavWaveSizeMin": 1,
+            "scavWaveSizeMax": 2,
+            "PMCWaves": 3,
+            "PMCWaveSizeMin": 1,
+            "PMCWaveSizeMax": 3,
+            "raiderWaves": 4,
+            "raiderWaveSizeMin": 1,
+            "raiderWaveSizeMax": 2,
+            "rogueWaves": 0,
+            "rogueWaveSizeMin": 2,
+            "rogueWaveSizeMax": 2,
+            "gluharRaiderWaves": 1,
+            "gluharRaiderWaveSizeMin": 2,
+            "gluharRaiderWaveSizeMax": 2,
+            "OnlyWorksProperlyWhenTaggedAndCursedIsEnabled": {
+                "waveSpawnChancePCT0_100": 50,
+                "cultistWaves": 2,
+                "cultistWaveSizeMin": 5,
+                "cultistWaveSizeMax": 5
+            }
+        },
+        "spawnTiming": {
+            "evenlySpaceAllSpawnTimes": false,
+            "extraWaveSpawnSpeedFactor": 2,
+            "extraWaveSpawnSpeedFactorMaxTime": 300,
+            "spawnExtraWavesImmediately": false,
+            "spawn_ALL_WavesImmediately": false
+        },
+        "maxBotsPerZone": 20
+    },
+    "sillyChanges": {
+        "allBulletsAreTracers": false,
+        "tracerGrenades": true,
+        "pumpkinCultists": false,
+        "COD_mode": false,
+        "COD_modeMaxHPPerLimb": 200,
+        "gravestone": false
+    },
+    "miscChanges": {
+        "enableProgressiveGear": false,
+        "startServerAtSpecificTime": false,
+        "startTime": "05:55:00",
+        "timeAcceleration": 2
+    },
+    "debug": {
+        "showSpawns": "all",
+        "showBosses": "all",
+        "showBossPMCs": "all",
+        "showGuns": "assaultgroup",
+        "showArmor": "assaultgroup",
+        "showAmmo": "assaultgroup",
+        "saveDebugFiles": true,
+        "reportWavesBeforeRaid": false
+    }
+}
